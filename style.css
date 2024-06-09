@@ -92,6 +92,9 @@ picture img {
     text-transform: uppercase;
     padding: 1.2rem 2.4rem;
     margin-top: 2.0rem;
+    letter-spacing: 0.7rem;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 .additional-news {
@@ -103,5 +106,48 @@ h2 {
     color: var(--Soft-orange);
     font-size: 3.5rem;
     font-weight: 700;
-    margin-bottom: 1.5rem;
+}
+
+.additional-news a {
+    padding: 2.0rem 0;
+}
+
+h3 {
+    color: var(--Off-white);
+    font-size: 2.0rem;
+    margin-bottom: 0.5rem;
+}
+
+.additional-news p {
+    color: var(--Dark-grayish-blue);
+}
+
+.bonus-page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+}
+
+.bonus-page h3  {
+    color: var(--Very-dark-blue);
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.bonus-page article {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+/* .bonus-page img {
+    height: 100%;
+    object-fit: cover;
+} */
+
+.article-number {
+    color: var(--Grayish-blue);
+    font-weight: 700;
+    font-size: 3.2rem;
 }
