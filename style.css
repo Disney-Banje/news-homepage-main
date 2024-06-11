@@ -144,14 +144,14 @@ h3 {
 }
 
 .bonus-page {
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 1.5rem;
 }
 
 .bonus-page article {
     display: flex;
-    gap: 2.2rem;
+    gap: 1.5rem;
 }
 
 .bonus-page img {
@@ -178,6 +178,10 @@ h3 {
         grid-row: 1 / 4;
         justify-self: center;
         align-self: center;
+    }
+
+    .bonus-page {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
