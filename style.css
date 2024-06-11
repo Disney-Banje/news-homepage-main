@@ -159,6 +159,22 @@ h3 {
     aspect-ratio: 4 / 5;
 }
 
+.additional-news h3:hover {
+    color: var(--Soft-orange);
+}
+
+.bonus-page h3:hover {
+    color: var(--Soft-red);
+}
+
+.hero-page a:hover {
+    background-color: var(--Very-dark-blue);
+}
+
+.page-links a:hover {
+    color: var(--Soft-orange);
+}
+
 @media screen and (min-width: 717px) {
     .hero-page {
         display: grid;
@@ -246,21 +262,5 @@ h3 {
 
     .bonus-page {
         grid-column: 1 / 4;
-    }
-
-    .additional-news h3:hover {
-        color: var(--Soft-orange);
-    }
-
-    .bonus-page h3:hover {
-        color: var(--Soft-red);
-    }
-
-    .hero-page a:hover {
-        background-color: var(--Very-dark-blue);
-    }
-
-    .page-links a:hover {
-        color: var(--Soft-orange);
     }
 }
