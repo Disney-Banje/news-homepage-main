@@ -224,6 +224,10 @@ h3 {
     color: var(--Very-dark-blue);
 }
 
+.article-summary {
+    color: var(--Dark-grayish-blue);
+}
+
 @media screen and (min-width: 717px) {
 
     .menu-btn {
